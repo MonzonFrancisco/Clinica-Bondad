@@ -9,7 +9,7 @@ $puesto = $_POST['puesto'];
 $query = "INSERT INTO registroadmin (email, usuario, password, puesto) VALUES('$email', '$usuario', '$password', '$puesto')";
 
 //verificar que no se repitan registros el primero sera el correo
-$verificacion_correo = mysqli_query($conexion,"SELECT *FROM registroadmin WHERE email='$email'");
+$verificacion_correo =  mysqli_query($conexion,"SELECT *FROM registroadmin WHERE email='$email'");
 
 if (mysqli_num_rows($verificacion_correo) > 0) {
     echo "<script> alert('Error, el correo ya se encuentra registrado');
