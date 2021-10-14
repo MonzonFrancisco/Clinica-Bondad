@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/_bootswatch.scss">
+<link rel="stylesheet" href="css/_variables.scss">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="icon" type="image/x-icon" href="images/hospital2.ico"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<title>Clinica Bondad</title>
+    <!--Menu header-->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.poresto.net/u/fotografias/m/2021/4/21/f608x342-72757_102480_15.jpeg"><b>Clinica Bondad</b></a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="navbar-collapse collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html"><b>INICIO</b>
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="citas.html"><b>CITAS</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>LABORATORIO</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>ORGANIGRAMA</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><b>AYUDA</b></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">¿Quienes somos?</a>
+                  <a class="dropdown-item" href="#">Ubicación</a>
+                  <a class="dropdown-item" href="#">Horarios</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Contacto</a>
+                </div>
+              </li>
+            </ul>
+            <div>
+              <a class="btn btn-xl btn-outline-danger" href="tel:+529982293234">
+                <svg style="color: rgb(255, 255, 255);" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-telephone-forward-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"/>
+                </svg> &nbsp;
+                <b style="color: rgb(255, 255, 255);">Llamanos
+                </b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    
+</head>
+
+<body>
+
+<!--Carrusel de imagenes-->
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/inicio.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="10000">
+      <img src="images/laboratorio.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/sala de espera.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/A1.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Prevista</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+<!--separador-->
+<div class="b-example-divider"></div>
+
+<!--Presentación-->
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Bienvenidos a nuestro sitio oficial</h1>
+    <p class="col-md-8 fs-4">La clinica Bondad nace con el unico objetivo de brindar servicios medicos a toda la comunidad para su bienestar.</p>
+    <a href="public/historia.html" target="_blank" type="button" class="btn btn-primary"><b>Historia de la clinica</b></a>
+  </div>
+</div>
+<hr>
+
+     <!--separador-->
+     <div class="b-example-divider"></div>
+      
+     <!--Contenedor sobre el covid-->
+     <div class="container" style="background-color: rgb(248, 230, 209); border-radius: 10px;">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"><b>PANDEMIA</b> <br> <span class="text-muted">CORONAVIRUS</span></h2>
+        <p class="lead">La COVID-19 afecta de distintas maneras en función de cada persona. La mayoría de las personas que se contagian presentan 
+          síntomas de intensidad leve o moderada, y se recuperan sin necesidad de hospitalización. <br>
+        Mas información: <br>
+        <p><a class="btn btn-warning" target="_blank" href="https://www.who.int/es/health-topics/coronavirus#tab=tab_3">
+          <b style="color: black;">Entrar al sitio de OMS »</b></a></p>
+        <br>
+        </div> 
+      <div class="col-md-5 order-md-1" class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="450" height="300" src="https://www.youtube.com/embed/vlzxSleRnmg"  style="border-radius: 10px; text-align: center;"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+      </div>
+    </div> <br> <br>
+
+    <!--separador-->
+    <div class="b-example-divider"></div>
+
+    <!--Contenedor de salud-->
+    <div class="container" style="background-color: rgb(248, 230, 209); border-radius: 10px;">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Recuerda tener una buena salud. <br><span class="text-muted">Sigue estos consejos:</span></h2>
+        <ul>
+          <li>Cuida tu cuerpo con ejercicios y una sana alimentación</li>
+          <li>Haz un chequeo médico adecuadamente</li>
+          <li>Comer saludable, conmuse frutas y verduras</li>
+          <li>Limitar el consumo de alcohol y no fumar</li>
+          <li>Consumir minimo 2 litros de agua al día</li>
+          <li>Tener todas las medidas de seguridad para evitar contagios del COVID</li>
+          <li>Consume producto de temporada</li>
+          <li>Cuida las relaciones sociales</li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <img src="images/salud index.jpg" 
+        alt=""
+        width="530"
+        height="280"
+        style="border-radius: 10px;">
+      </div>
+    </div>
+  </div> 
+
+  <!--separador-->
+  <div class="b-example-divider"></div>
+<hr>
+    <!--Información de doctores-->
+    <!-- Content section 1-->
+  <section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="images/doctor rosio.jpg" alt="..."></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4"><b>DOCTORA EN GENERAL</b></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    <div>
+                    <a
+                    class="btn btn-primary btn-lg btn-floating"
+                    style="background-color: #20c936; border-radius: 100%;"
+                    href="https://api.whatsapp.com/send?phone=+529981677845&text=Hola,%20¿Qué%20tal?%20Para%20Información%20sobre%20los%20saborines" target="_blank"
+                    role="button"
+                    ><i class="fab fa-whatsapp"></i
+                      ></a>  &nbsp; &nbsp;
+                      <a
+                      class="btn btn-primary btn-lg btn-floating"
+                      style="background-color: #5350f5; border-radius: 100%;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-facebook-f"></i
+                        ></a>  &nbsp; &nbsp;
+                        <a
+                        class="btn btn-primary btn-lg btn-floating"
+                        style="background-color: #ac2bac; border-radius: 100%;"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-instagram"></i
+                          ></a>
+                      
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+ <!-- Content section 2-->
+ <section>
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="images/doctora milagros.jpg" alt="..." /></div>
+          </div>
+          <div class="col-lg-6">
+              <div class="p-5">
+                  <h2 class="display-4">We salute you!</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                  <div>
+                    <a
+                    class="btn btn-primary btn-lg btn-floating"
+                    style="background-color: #20c936; border-radius: 100%;"
+                    href="https://api.whatsapp.com/send?phone=+529981677845&text=Hola,%20¿Qué%20tal?%20Para%20Información%20sobre%20los%20saborines" target="_blank"
+                    role="button"
+                    ><i class="fab fa-whatsapp"></i
+                      ></a>  &nbsp; &nbsp;
+                      <a
+                      class="btn btn-primary btn-lg btn-floating"
+                      style="background-color: #5350f5; border-radius: 100%;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-facebook-f"></i
+                        ></a>  &nbsp; &nbsp;
+                        <a
+                        class="btn btn-primary btn-lg btn-floating"
+                        style="background-color: #ac2bac; border-radius: 100%;"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-instagram"></i
+                          ></a>
+                      
+                    </div>
+                </div>
+          </div>
+      </div>
+  </div>
+</section>
+<hr>
+<!-- Content section 3-->
+<section>
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6 order-lg-2">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="images/Doctor manuel.jpg" alt="..." /></div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+              <div class="p-5">
+                  <h2 class="display-4">Let there be rock!</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                  <div>
+                    <a
+                    class="btn btn-primary btn-lg btn-floating"
+                    style="background-color: #20c936; border-radius: 100%;"
+                    href="https://api.whatsapp.com/send?phone=+529981677845&text=Hola,%20¿Qué%20tal?%20Para%20Información%20sobre%20los%20saborines" target="_blank"
+                    role="button"
+                    ><i class="fab fa-whatsapp"></i
+                      ></a>  &nbsp; &nbsp;
+                      <a
+                      class="btn btn-primary btn-lg btn-floating"
+                      style="background-color: #5350f5; border-radius: 100%;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-facebook-f"></i
+                        ></a>  &nbsp; &nbsp;
+                        <a
+                        class="btn btn-primary btn-lg btn-floating"
+                        style="background-color: #ac2bac; border-radius: 100%;"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-instagram"></i
+                          ></a>
+                      
+                    </div>
+                </div>
+          </div>
+      </div>
+  </div>
+</section>
+<hr>
+<br>
+
+
+  <!--separador-->
+  <div class="b-example-divider"></div>
+  
+
+  <!--Información que siempre se debe tener en cuenta-->
+<div class="container">
+  <div class="row" style="text-align: center;">
+    <h3><b>SIEMPRE TENER A LA MANO</b></h3>
+    <br><br>
+    <div class="col-lg-4 mx-auto">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140"
+      viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+      <path style="fill:#57555C;" d="M287,0h-62c-41.421,0-75,33.579-75,75v62c0,8.284,6.716,15,15,15h30c8.284,0,15-6.716,15-15V75
+      c0-8.284,6.716-15,15-15h62c8.284,0,15,6.716,15,15v62c0,8.284,6.716,15,15,15h30c8.284,0,15-6.716,15-15V75
+      C362,33.579,328.421,0,287,0z"/>
+      <path style="fill:#57555C;" d="M287,0h-31v60h31c8.284,0,15,6.716,15,15v62c0,8.284,6.716,15,15,15h30c8.284,0,15-6.716,15-15V75
+      C362,33.6,328.4,0,287,0z"/>
+      <path style="fill:#FD003A;" d="M452,123.5l-30,30.6l-11.4,11.7L392,149l-30-27H150l-30,26.4l-15.901,14.099L90,149.9l-30-26.4
+      C25.8,130.401,0,160.7,0,197v240c0,41.4,33.6,75,75,75h15l13.801-25.499L120,512h272l14.7-24.6L422,512h15c41.4,0,75-33.6,75-75V197
+      C512,160.699,486.2,130.401,452,123.5z"/>
+      <path style="fill:#FD003A;" d="M512,197v240c0,41.4-33.6,75-75,75h-15l-15.3-24.6L392,512H256V122h106l30,27.001l18.6,16.8
+      l11.4-11.7l30-30.601C486.2,130.401,512,160.699,512,197z"/>
+      <polygon style="fill:#29292C;" points="104.099,162.499 120,148.4 120,512 90,512 90,149.9 "/>
+      <polygon style="fill:#29292C;" points="410.6,165.801 422,154.1 422,512 392,512 392,149.001 "/>
+      <path style="fill:#ffffff;" d="M347,272h-45v-45c0-8.401-6.599-15-15-15h-62c-8.401,0-15,6.599-15,15v45h-45
+      c-8.401,0-15,6.599-15,15v60c0,8.401,6.599,15,15,15h45v45c0,8.401,6.599,15,15,15h62c8.401,0,15-6.599,15-15v-45h45
+      c8.401,0,15-6.599,15-15v-60C362,278.599,355.401,272,347,272z"/>
+      <path style="fill:#57555C;" d="M75,122c-5.099,0-10.201,0.601-15,1.5V167c0,24.901,20.099,45,45,45s45-20.099,45-45v-45H75z"/>
+      <path style="fill:#57555C;" d="M437,122h-75v45c0,24.901,20.099,45,45,45s45-20.099,45-45v-43.5
+      C447.201,122.601,442.099,122,437,122z"/>
+      <path style="fill:#ffffff;" d="M362,287v60c0,8.401-6.599,15-15,15h-45v45c0,8.401-6.599,15-15,15h-31V212h31
+      c8.401,0,15,6.599,15,15v45h45C355.401,272,362,278.599,362,287z"/>
+    </svg>
+    <br> <br>
+    <h2>BOTIQUIN</h2>
+    <p>Recuerda siempre tener un botiquin <br> de primeros auxilio en casa, <br> por emergencias</p>
+    <p><a class="btn btn-warning" target="_blank" href="https://www.farmaciasguadalajara.com/SearchDisplay?categoryId=&storeId=10151&catalogId=10052&langId=-24&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=Botiquin">
+      <b style="color: black;">Consiguelos en »</b></a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4 mx-auto">
+      <svg width="140" height="140" viewBox="-21 0 472 472" xmlns="http://www.w3.org/2000/svg"><path d="m22.960938 424c-8.835938 0-16 7.164062-16 16v32h416v-32c0-8.835938-7.164063-16-16-16zm0 0" fill="#57565c"/><path d="m390.960938 296v128h-352v-128c0-97.203125 78.796874-176 176-176 97.203124 0 176 78.796875 176 176zm0 0" fill="#d80027"/><path d="m190.960938 280h48v48h-48zm0 0" fill="#3e3d42"/><g fill="#ff9811"><path d="m238.960938 336 72 24h24v-112h-24l-72 24zm0 0"/><path d="m190.960938 336v-64l-72-24h-24v112h24zm0 0"/><path d="m206.960938 0h16v80h-16zm0 0"/><path d="m0 92.347656 11.3125-11.3125 56.570312 56.570313-11.3125 11.3125zm0 0"/><path d="m362.039062 137.613281 56.570313-56.566406 11.3125 11.3125-56.566406 56.570313zm0 0"/></g><path d="m38.960938 408h352v16h-352zm0 0" fill="#bd0022"/><path d="m342.242188 236.585938c-17.394532-32.964844-46.933594-57.867188-82.359376-69.441407l4.984376-15.199219c39.359374 12.855469 72.175781 40.519532 91.503906 77.144532zm0 0" fill="#ff7956"/></svg>
+      <br> <br>
+      <h2>EMERGENCIAS</h2>
+      <p>Siempre tener a la mano el número de <br>
+        emergencia, nunca sabras cuando lo <br> necesitaras</p>
+        <p><a class="btn btn-warning" target="_blank" href="https://losmundosdemexico.com/numeros-de-emergencia-en-mexico/">
+          <b style="color: black;">Números de emergencias »</b></a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div> <br>
+    <!--separador-->
+    <div class="b-example-divider"></div>
+
+    <!--Footer-->
+  <div class="container" style="background-color: #e5e5e9; border-radius: 15px;">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-muted">© 2021 Clinica Bondad</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <style>
+        a:hover{
+          transition: .8s;
+          transform:scale(1.2);
+          transform:translate(0px,-1.5px);
+
+        }
+        </style>
+        <a
+        class="btn btn-primary btn-lg btn-floating"
+        style="background-color: #20c936; border-radius: 50%;"
+        href="https://api.whatsapp.com/send?phone=+529981677845&text=Hola,%20¿Qué%20tal?%20Para%20Información%20sobre%20los%20saborines" target="_blank"
+        role="button"
+        ><i class="fab fa-whatsapp"></i
+          ></a>  &nbsp; &nbsp;
+          <a
+          class="btn btn-primary btn-lg btn-floating"
+          style="background-color: #5350f5; border-radius: 100%;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook"></i
+            ></a>  &nbsp; &nbsp;
+            <a
+            class="btn btn-primary btn-lg btn-floating"
+            style="background-color: #ac2bac; border-radius: 50%;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+              ></a>
+            </ul>
+          </footer>
+  </div>
+
+
+
+
+
+      
+
+</body>
+   <!-- Core theme JS-->
+   <script src="js/scripts.js"></script>
+
+</html>
