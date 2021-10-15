@@ -22,7 +22,7 @@ if (!isset($_SESSION['usuario'])) {
 </head>
 <body>
     
-    <h1>Bienvenido</h1>
+    <h1>Bienvenido administrador que tenga un excelente turno</h1>
     <div>
         <h1>Agenda de citas</h1>
     </div>
