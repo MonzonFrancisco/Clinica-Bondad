@@ -5,7 +5,7 @@ $email= $_POST['email'];
 $password= $_POST['password'];
 $password =md5($_POST['password']);
 
-$validar_login= mysqli_query($conexion, "SELECT *FROM registro_login WHERE email='$email'
+$validar_login= mysqli_query($conexion, "SELECT *FROM registroadmin WHERE email='$email'
   and password='$password'");
 
   if (mysqli_num_rows($validar_login) >0) {

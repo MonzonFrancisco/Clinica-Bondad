@@ -41,39 +41,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<p>Número de teléfono</p>
 					<input type="text" name="number" placeholder="" required=""/>
 				</div>
-				<div class="gaps">
-				<p>E-mail</p>
-						<input type="email" name="email" placeholder="" required="" />
-				</div>	
+					
 				<div class="gaps">
 				<p>Síntomas</p>
 						<textarea name="symptoms" placeholder="" required="" ></textarea>
 				</div>
 			</div>
 			<div class="right-agileinfo same">
+				
+			<div class="gaps">
+					<p>Genero</p>	
+						<select class="form-control" name="gender" required>
+							<option></option>
+							<option value="M">Masculino</option>
+							<option value="F">Femenino</option>
+						</select>
+			</div>
 			<div class="gaps">
 				<p>Seleccionar fecha</p>		
 						<input name="date" type="date" required="">
 			</div>
-			<div class="gaps">
-				<p>Departamento</p>	
-					<select class="form-control" name="departament">
-						<option></option>
-						<option value="Cardiologia">Cardiologia</option>
-						<option value="Oftalmologia">Oftalmologia</option>
-						<option value="Neurologia">Neurologia</option>
-						<option value="Psicologia">Psicologia</option>
-						<option value="Dermatologia">Dermatologia</option>
-					</select>
-			</div>
-			<div class="gaps">
-				<p>Genero</p>	
-					<select class="form-control" name="gender" required>
-						<option></option>
-						<option value="M">Masculino</option>
-						<option value="F">Femenino</option>
-					</select>
-			</div>
+			
 			<div class="gaps">
 				<p>Hora</p>		
 					<input type="time" id="timepicker" name="time" class="timepicker form-control" value="">	

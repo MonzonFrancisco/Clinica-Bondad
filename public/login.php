@@ -31,7 +31,7 @@ if (isset($_SESSION['usuario'])) {
             <div class="welcome-form"><h1><b>Bienvenido</b></h1><h2>Administrador</h2></div>
             <div class="user line-input">
                 <label class="lnr lnr-user"></label>
-                <input type="email" placeholder="Correo/Usuario" name="email">
+                <input type="text" placeholder="Correo/Usuario" name="email">
             </div>
             <div class="password line-input">
                 <label class="lnr lnr-lock"></label>

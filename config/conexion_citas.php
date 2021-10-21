@@ -4,15 +4,13 @@ insertar($conexion);
 function insertar($conexion){
 	$name= $_POST['name'];
 	$number= $_POST['number'];
-	$email= $_POST['email'];
-	$symptoms=($_POST['symptoms']);
-	$date= $_POST['date'];
-	$departament= $_POST['departament'];
+	$symptoms=$_POST['symptoms'];
 	$gender= $_POST['gender'];
+	$date= $_POST['date'];
 	$time= $_POST['time'];
 
-	$cita="INSERT INTO citas (`name`, `number`, `email`, `symptoms`, `date`, `departament`, `gender`, `time`)
-	VALUES ('$name', '$number', '$email', '$symptoms', '$date', '$departament', '$gender', '$time')";
+	$cita="INSERT INTO citas (`name`, `number`, `symptoms`, `gender`, `date`, `time`)
+	VALUES ('$name', '$number', '$symptoms', '$gender', '$date', '$time')";
 
 	mysqli_query($conexion, $cita);
 	mysqli_close($conexion);

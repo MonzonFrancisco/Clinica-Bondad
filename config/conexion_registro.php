@@ -1,5 +1,5 @@
 <?php
-$conexion=mysqli_connect("localhost","root","","clinica_bondad");
+include'conexion.php';
 
   $email= $_POST['email'];
 	$usuario= $_POST['usuario'];
@@ -9,16 +9,13 @@ $conexion=mysqli_connect("localhost","root","","clinica_bondad");
 $query="INSERT INTO registroadmin(email, usuario, password, puesto)
 VALUES ('$email', '$usuario', '$password', '$puesto')";
 
-//verificar que no se repitan registros el primero sera el correo
-$verificacion_correo= mysqli_query($conexion,"SELECT *FROM registroadmin WHERE email='$email'");
-if (mysqli_num_rows($verificacion_correo) >0) {
-echo '
-<script>
-alert("Error, el correo ya se encuentra registrado");
-window.location="../public/registro.php";
-</script>
-';
-exit();
+// verificar que no se repitan registros el primero sera el correo
+$verificacion_correo =   mysqli_query ( $conexion , "SELECT * FROM registroadmin WHERE email = '$email'" );
+
+if ( mysqli_num_rows ( $verificacion_correo )> 0 ) {
+    echo  "<script> alert ('Error, el correo ya se encuentra registrado');
+        window.location = '../public/registro.php'; </script> " ;
+    exit();
 }
 
 $ejecutar=mysqli_query($conexion, $query);
@@ -37,7 +34,6 @@ echo '
     </script>
     ';
 }
-
 mysqli_close($conexion);
 
  ?>

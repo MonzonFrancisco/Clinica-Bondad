@@ -33,7 +33,7 @@ if (isset($_SESSION['usuario'])) {
             
             <div class="user line-input">
                 <label class="lnr lnr-envelope"></label>
-                <input type="email" placeholder="Correo electronico" name="email" required="">
+                <input type="text" placeholder="Correo electronico" name="email" required="">
             </div>
             <div class="user line-input">
                 <label class="lnr lnr-user"></label>
